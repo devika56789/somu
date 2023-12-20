@@ -13,8 +13,8 @@ String name=request.getParameter("user");
 String pass=request.getParameter("pwd");
 if(name.equals("devi")&& pass.equals("123"))
 {
-	out.println("name:"+name);
-	out.println("password:"+pass);
+	//out.println("name:"+name);
+	//out.println("password:"+pass);
 	response.sendRedirect("http://www.google.com/");
 }
 else

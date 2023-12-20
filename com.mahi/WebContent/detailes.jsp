@@ -10,8 +10,8 @@
 <h1> customer details</h1>
 <jsp:useBean id="cst" class="com.mahi.customer"></jsp:useBean>
 <jsp:setProperty property="*" name ="cst"/>
-<jsp:getProperty property="id" name="cst"/><br>
-<jsp:getProperty property="name" name="cst"/><br>
-<jsp:getProperty property="city" name="cst"/>
+<jsp:getProperty property="id" name="id"/><br>
+<jsp:getProperty property="name" name="name"/><br>
+<jsp:getProperty property="city" name="city"/>
 </body>
 </html>

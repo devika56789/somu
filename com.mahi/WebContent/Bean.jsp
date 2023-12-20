@@ -6,10 +6,10 @@
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 </head>
-<body>
+<body>0
 <form action="details.jsp">
 <h1>customer form</h1>
-Enter id<input type="text" name="id"><br><br>
+Enter id<input type="text"name="id"><br><br>
 Enter name<input type="text" name="name"><br><br>
 Enter city<input type="text" name="name"><br><br>
 <input type ="submit" value="send">
